@@ -61,7 +61,7 @@ So here are the commands we want to run to create the environment we need for th
 conda create -n itds python=2
 source activate itds
 conda list
-conda install numpy pandas jupyter notebook
+conda install numpy pandas jupyter notebook git
 conda list
 conda env export > environment.yaml
 cat environment.yaml

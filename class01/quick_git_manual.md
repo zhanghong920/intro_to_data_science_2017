@@ -55,6 +55,7 @@ Save your changes to a “stash”, but don’t commit them. Useful if you might
 2. Clone the repo
 ```
 git clone https://github.com/Tian-Su/intro_to_data_science_2017.git
+cd intro_to_data_science_2017
 ```
 
 3. Check your current branch
