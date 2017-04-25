@@ -65,6 +65,7 @@ git branch
 
 4. Switch to branch 'class01'
 ```
+git branch develop origin/class01
 git checkout class01
 ```
 
