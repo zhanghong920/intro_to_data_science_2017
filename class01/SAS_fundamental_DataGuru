@@ -1,0 +1,86 @@
+data AssignValue;
+  a = 2;
+	b = 3;
+	c = a + b;
+	d = floor(a/b);
+	e = a/b;
+	f = a**b;
+  	put c;
+  	put 'a + b =' c;
+  	put 'a / b = ' d;
+  	put 'a / b = ' e;
+  	put 'a^b = ' f;
+run;
+
+
+data List;
+	array a {3} (1 2 3);
+	array b {2} (4,5);
+	put 'a:' a{*};
+	put 'b:' b{*};
+	put 'a + b =' a{*} b{*};
+	put 'the 2nd element in a is:' a2;
+	/*SAS array element can't be deleted or added*/
+	
+run;
+
+
+data dict;
+	array dict{2} a b (1 2);
+	put dict{a};
+	put dict{*};
+run;
+
+
+data loop1;
+	do i = 1 to 3;
+	output;
+	end;
+run;
+
+data loop2;
+	a = 10;
+	do while (a > 5);
+		output;
+		a = a-1;
+	end;
+run;
+
+data loop3;
+	a =1;
+	do until (a > 10);
+	a = a + 2;
+	end;
+	output;
+run;
+
+
+%macro maybe_useless_function(a, b, useless);
+/*%macro maybe_useless_function(a, b, useless="true");*/
+/*when default value is used when defining function, 
+ each parameter must be explicitly specified to call the function.
+ In this example, when default useless="true", 
+ %maybe_useless_function(a=1,b=2) works but %maybe_useless_function(1,2) doesn't*/
+data;
+	a = &a;
+	b = &b;
+	useless = &useless;
+	if useless = "true" then
+		do;
+		a = &a;
+		b = &b;
+		end;
+	else 
+		do;
+		a = &a+1;
+		b = &b+1;
+		end;
+run;
+proc print noobs;
+	var a b;
+run;
+%mend;
+
+%maybe_useless_function(1,2,"true");
+%maybe_useless_function(1,2,"false");
+%maybe_useless_function(a=1,b=2,useless="false");

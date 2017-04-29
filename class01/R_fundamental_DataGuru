@@ -1,0 +1,80 @@
+Basic calculation
+
+A <- 2
+B <-3
+C <- a+b
+C
+cat('a+b=',a+b)
+cat('a+b=',a%/%b)
+cat('a+b=',a/b)
+
+
+Import data
+
+math <- read.csv/read.table/read.xlsx(‘path’, [header=true, sep=’,’, row.names=’id’]
+cat(‘a^b=’,a^b)
+
+
+List calculation
+
+a <- c(1,2,3)
+b <- c(4,5)
+cat(‘a:’,a)
+cat(‘b:’, b)
+cat(‘a+b=’,c(a,b))
+cat(‘the 2nd element in a is:’,a[2])
+cat(‘delete the first element of a:’, a[1])
+a<-a[-1]
+cat(‘now a is:’, a[-1])
+a<-c(a,6)
+cat(‘append a 6 to a:’, a)
+a<-c(a,b)
+cat(‘extend a with b:’, a)
+
+Modify the element of list
+
+a <-(1,2)
+a[1] <- 3
+a
+
+
+
+tuple????
+Dictionary????
+
+For loop
+
+for (i in 1:3){
+  print(i)
+}
+
+While loop
+
+a<-10
+While (a >5){
+print(a)
+a=a-1
+}
+
+
+While-break loop
+
+a <- 1
+while (TRUE){
+  a = a + 2;
+  if (a > 10)
+  
+  {print(a);break;}
+ }
+
+
+Function
+
+maybe_useless_function <- function(a,b,useless=TRUE){
+  if (useless){
+  result <- c(a,b)
+  return(result)}
+  else{
+  result <-c(a+1,b+1)
+  return(result)}
+}
