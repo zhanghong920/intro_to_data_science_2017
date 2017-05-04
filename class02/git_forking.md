@@ -1,7 +1,7 @@
 # Git forking
 ## 1st Forking exercise 
 1. Product owner fork the repo from Tian's repo. This will be your team repo.
-2. create an new branch called 'fork_exercise'.
+2. Create a new branch called 'fork_exercise'.
 2. Each team member fork the repo from your product owner.
 3. Each team member add an empty file called 'test_forking.txt'.
 4. Each team member pull request to fork_exercise branch.
