@@ -38,6 +38,7 @@ Follow the instruction in class01 to set up the environment and clone the github
 2. write it in ".py" script. have the link to that problem and your name in the script. 
 3. demo to other students.
 ```
+
 4. those who finished the ".py" script will demo the script to other student.
 
 ```
