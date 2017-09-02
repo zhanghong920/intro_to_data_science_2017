@@ -11,9 +11,13 @@ Follow the instruction in class01 to set up the environment and clone the github
 4. Students who participate in the previous classes:
 	
 	```
-	1. Please change the name of the repo you used to "intro_to_data_science_2017_history"
+	if you need to keep anything in the repo you forked before:
+		let me know. We will figure out a way to preserve yours. (you can keep a local copy and move the ones you want to a the new fork later.)
+	else:
+	do the following
+	1. Please delete the repo you forked before. (delete the local copy as well if you wish. you don't have to.)
 	2. Fork my repo again. 
-	Due to student turn over we experienced in the past, we will gather and contribute all teams' work back to class repo on the last day of the class.
+	Due to student turn over we experienced in the past, we will gather and contribute all teams' work back to class repo on the last day of the bootcamp.
 	```
 
 ## Python fundamental
@@ -38,6 +42,7 @@ Follow the instruction in class01 to set up the environment and clone the github
 2. write it in ".py" script. have the link to that problem and your name in the script. 
 3. demo to other students.
 ```
+
 4. those who finished the ".py" script will demo the script to other student.
 
 ```

@@ -10,7 +10,10 @@ After installation, you’re automatically in the default conda environment with
 
 Open the Anaconda Prompt application (if on window. Use terminal on MAC). In the prompt, run the following commands:
 
-```conda upgrade --all```
+```
+conda upgrade --all
+# this step taks forever, so if in hurry, do it later.
+```
 
 Answer yes when asked if you want to install the packages. The packages that come with the initial install tend to be out of date, so updating them now will prevent future errors from out of date software.
 
