@@ -1,5 +1,7 @@
 # Supervised learning
 
+[Titanic dataset](https://www.kaggle.com/c/titanic/data)
+
 ## Morning
 
 Data clean up
