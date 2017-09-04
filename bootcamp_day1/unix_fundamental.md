@@ -37,4 +37,24 @@ tail -2
 mkdir
 ```
 
-* 
+* delete a file
+
+```
+rm <file name>
+```
+
+* move a file
+
+```
+mv <file name> <target directory>
+```
+
+* rename a file
+
+```
+mv <file name> .
+(here the "." means current location)
+```
+
+
+
