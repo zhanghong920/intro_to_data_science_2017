@@ -10,19 +10,26 @@ Data & dictionary
 
 ### Data cleaning & exploration
 split data
+
 missing imputation 
+
 basice feature selection
+
 dummification
+
 data exploration
 
 ### Feature engineer
 
 ### Modeling
 fit baseline model use default hyper-parameters
+
 initial model evaluation (validation set)
+
 Co-optimize:
-	hyper-parameter tuning
-	feature selection
+
+* hyper-parameter tuning
+* feature selection
 	
 Visualization of optimization
 
