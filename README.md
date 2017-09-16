@@ -1,10 +1,4 @@
 
-# Congratulations Class 2017!!!
-
-![github concepts](https://github.com/Tian-Su/intro_to_data_science_2017/blob/master/figures/09162017bootcamp1.jpg)
-
-left to right: 
-Yingxi Zhao, Wei Lu, Tian Su, Fangjing Xu, Xiongxing Li, Xiaoxuan Guo, Tengran Liu, Xuemin Zhang
 
 # intro_to_data_science_2017
 This repo host the materials for the joblogic-x data science class 2017
