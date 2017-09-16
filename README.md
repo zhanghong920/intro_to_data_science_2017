@@ -1,3 +1,8 @@
+
+# Congratulations Class 2017!!!
+
+![github concepts](https://github.com/Tian-Su/intro_to_data_science_2017/blob/master/figures/09162017bootcamp1.jpg)
+
 # intro_to_data_science_2017
 This repo host the materials for the joblogic-x data science class 2017
 
