@@ -1,4 +1,9 @@
 # Be a developer
-1. Github
+## Morning
+1. Form teams. 
+2. Work on final project.
+3. Use github. Commit scripts to class repo.
+
+## Afternoon
+1. Object oriented programing
 2. Test driven development
-3. Object oriented programing
